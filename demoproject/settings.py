@@ -17,7 +17,7 @@ SECRET_KEY = 'k1&b#swd^&$c_(3%15fh$!h^k+t*c3)nsxf##ffri4y4sc&evp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://git.heroku.com/stark-brook-56556.git']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
