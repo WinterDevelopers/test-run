@@ -135,4 +135,4 @@ LOGIN_URL = '/demoapp/user_login'
 
 
 import django_heroku
-django_heroku.settings(locals(), staticfiles=False
+django_heroku.settings(locals(), staticfiles=False)
