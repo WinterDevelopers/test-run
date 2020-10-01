@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+</head>
+<body>
+<div class="container">
+    <h1>FILL IN THE REQUIRED SPACES</h1>
+</div>
+<div class="container">
+    <div class="form-group">
+    <form method="POST" class=>
+        {{form.as_p}}
+        {% csrf_token %}
+    <button type="submit" value="click to submit" class="btn btn-primary">submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
