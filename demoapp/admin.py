@@ -3,6 +3,8 @@ from demoapp.models import Topic, AccessRecord, WebPage, User, UserProfileInfo
 
 
 # Register your models here
-@admin.register(Topic,AccessRecord,WebPage,User,UserProfileInfo)
-class PersonAdmin(admin.ModelAdmin):
-    pass
+admin.site.register(Topic)
+admin.site.register(AccessRecord)
+admin.site.register(WebPage)
+admin.site.register(User)
+admin.site.register(UserProfileInfo)
